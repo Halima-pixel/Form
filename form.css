@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: "customFont";
+    src: url("../fonts/Norsebold.otf")
+    format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100vh;   
+}
+
+  .container {
+    position: relative;
+  }
+
+img[src="Images/halie-west.jpg"]{
+    width: 40%;
+    height: auto;
+    z-index: 1;
+}
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 40%;
+    height: 140px;
+  }
+
+  .mini{
+    display: flex;
+    align-items: center;
+  }
+.logo {
+    background-color: rgb(215, 219, 219, 0);
+    width: 5.5em;
+    height: 120px;    
+}
+
+.odin-text {
+    font-family: "customFont", Tahoma;
+    color: white;
+    font-size: 6.25em;
+}
+
+  .credit {
+    position: absolute;
+    bottom: 5px;
+    left: 10%;
+    color: white;
+  }
+
+  a:link{
+    color: white;
+  }
+
+  a:hover {
+    color: rgba(72, 255, 0, 0.89);
+  }
+
+  a:visited {
+    color: rgb(236, 27, 236);
+  }
