@@ -21,6 +21,7 @@
         </p>
         </div>
         <div class="form-container">
+          <form action="">
             <div class="paragraph-container">
             <div class="paragraph">
             <p class="para">This is not a real online service! You know you need something like this in your life
@@ -34,21 +35,21 @@
                 <ul>
                     <li>
                         <label for="name">first name</label>
-                        <input type="text" id="name" name="firstname" value="Thor">
+                        <input type="text" id="name" name="firstname" value="Thor" required>
                     </li>
                     <li>
                         <label for="email">email</label>
-                        <input type="email" name="email address" id="email">
+                        <input type="email" name="email address" id="email" required>
                     </li>
                     <li>
                         <label for="password">password</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" min="8" max="12" pattern="(?=.*[0-9]), (?=.*[A-Z])">
                     </li>
                     
                     <div class="left-input">
                         <li>
                            <label for="lastname">last name</label>
-                           <input type="text" id="lastname" name="last name" value="odinson">
+                           <input type="text" id="lastname" name="last name" value="odinson" required>
                         </li>  
                         <li>
                             <label for="number">phone number</label>
@@ -60,8 +61,17 @@
                         </li>
                     </div>
                 </ul>
+            </div>  
+            <div class="account">
+                <ul>
+                    <li>
+                       <button type="submit">Create Account</button>
+                    </li>
+                  </form>
+                    <p id="last-p">Already have an account? <span>Log in<span></p>
+                </ul>
             </div>
-                 
+            </div> 
             </div>
         </div>
 

@@ -73,7 +73,7 @@ img[src="Images/halie-west.jpg"]{
   }
 
   a:hover {
-    color: rgba(72, 255, 0, 0.89);
+    color: rgba(4, 0, 255, 0.89);
   }
 
   a:visited {
@@ -82,14 +82,13 @@ img[src="Images/halie-west.jpg"]{
 
   .form-container {
     width: 60%;
-    border: 2px dotted red;
+    background-color: #eeeeeeb7;
   }
 
   .paragraph-container {
     position: relative;
     max-width: 100%;
     height: 40%;
-    background-color: #eeeeeeb7;
   }
 
   .paragraph {
@@ -107,6 +106,7 @@ img[src="Images/halie-west.jpg"]{
   .inputs-container {
     height: 30%;
     box-shadow: 0 3px 5px rgb(172, 169, 169);
+    background-color: white;
   }
 
   #start {
@@ -131,7 +131,81 @@ img[src="Images/halie-west.jpg"]{
   .left-input {
     position: relative;
     left: 16em;
-    bottom: 9.2em;
+    bottom: 10.2em;
   }
 
+  span {
+    color: green;
+  }
+
+  button {
+    width: 12em;
+    height: 2.5em;
+    border-radius: 9px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgb(26, 31, 26);
+  }
+
+  #last-p {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  input {
+    width: 15em;
+    height: 2em;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 3px 2px rgb(97, 92, 92);
+  }
+
+  input:focus {
+   border: 2px solid #3b88fc;
+   outline: #3b88fc;
+  }
+/* 
+@media only screen and (max-width: 480px){
+  * {
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100vh;  
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+img[src="Images/halie-west.jpg"]{
+  width: 40%;
+  height: auto;
+  z-index: 1;
+  object-fit: contain;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 140px;
+}
   
+} */
