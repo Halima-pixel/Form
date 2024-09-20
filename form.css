@@ -1,184 +1,19 @@
-
 @font-face {
-    font-family: "customFont";
-    src: url("../fonts/Norsebold.otf")
-    format("woff2");
-    font-weight: 700;
-    font-style: normal;
+  font-family: "customFont";
+  src: url("../fonts/Norsebold.otf") format("woff2");
+  font-weight: 700;
+  font-style: normal;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-body, html {
-    width: 100%;
-    height: 100vh;  
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-  .main {
-    display: flex;
-    
-  }
-
-  .container {
-    width: 40%;
-    position: relative;
-  }
-
-img[src="Images/halie-west.jpg"]{
-    width: 100%;
-    height: auto;
-    z-index: 1;
-}
-
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 20%;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 140px;
-  }
-
-  .mini{
-    display: flex;
-    align-items: center;
-  }
-.logo {
-    background-color: rgb(215, 219, 219, 0);
-    width: 5.5em;
-    height: 120px;    
-}
-
-.odin-text {
-    font-family: "customFont", Tahoma;
-    color: white;
-    font-size: 6.25em;
-}
-
-  .credit {
-    position: absolute;
-    bottom: 5px;
-    left: 27%;
-    color: white;
-  }
-
-  a:link{
-    color: white;
-  }
-
-  a:hover {
-    color: rgba(4, 0, 255, 0.89);
-  }
-
-  a:visited {
-    color: rgb(236, 27, 236);
-  }
-
-  .form-container {
-    width: 60%;
-    background-color: #eeeeeeb7;
-  }
-
-  .paragraph-container {
-    position: relative;
-    max-width: 100%;
-    height: 40%;
-  }
-
-  .paragraph {
-    position: absolute;
-    bottom: 40px;
-    right: 120px;
-    font-size: 1.3em;
-    width: 80%;
-    }
-
-  .para {
-    font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .inputs-container {
-    height: 30%;
-    box-shadow: 0 3px 5px rgb(172, 169, 169);
-    background-color: white;
-  }
-
-  #start {
-    font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.3em;
-    margin: 0 0 0 50px;
-    padding-top: 20px;
-  }
-
-  label {
-    display: block; 
-    font-family: 'Times New Roman', Times, serif;
-    font-variant: small-caps;
-  }
- 
-  li {
-    list-style: none;
-    margin-bottom: 10px;
-  }
-
-  .left-input {
-    position: relative;
-    left: 16em;
-    bottom: 10.2em;
-  }
-
-  span {
-    color: green;
-  }
-
-  button {
-    width: 12em;
-    height: 2.5em;
-    border-radius: 9px;
-    background-color: #596D48;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    font-size: 20px;
-    box-shadow: 2px 2px 5px rgb(26, 31, 26);
-  }
-
-  #last-p {
-    font-weight: bold;
-    font-size: 17px;
-  }
-
-  input {
-    width: 15em;
-    height: 2em;
-    border-radius: 10px;
-    border: 1px solid #E5E7EB;
-    box-shadow: 0 3px 2px rgb(97, 92, 92);
-  }
-
-  input:focus {
-   border: 2px solid #3b88fc;
-   outline: #3b88fc;
-  }
-/* 
-@media only screen and (max-width: 480px){
-  * {
-    box-sizing: border-box;
-}
-body, html {
-    width: 100%;
-    height: 100vh;  
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .main {
@@ -186,16 +21,16 @@ body, html {
 }
 
 .container {
-  width: 100%;
+  width: 40%;
   position: relative;
 }
 
-img[src="Images/halie-west.jpg"]{
-  width: 40%;
+img[src="Images/halie-west.jpg"] {
+  width: 100%;
   height: auto;
   z-index: 1;
-  object-fit: contain;
 }
+
 .logo-container {
   display: flex;
   justify-content: center;
@@ -207,5 +42,129 @@ img[src="Images/halie-west.jpg"]{
   width: 100%;
   height: 140px;
 }
-  
-} */
+
+.mini {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-color: rgb(215, 219, 219, 0);
+  width: 5.5em;
+  height: 120px;
+}
+
+.odin-text {
+  font-family: "customFont", Tahoma;
+  color: white;
+  font-size: 6.25em;
+}
+
+.credit {
+  position: absolute;
+  bottom: 5px;
+  left: 27%;
+  color: white;
+}
+
+a {
+  color: rgb(247, 240, 240);
+}
+
+a:hover {
+  color: rgba(4, 0, 255, 0.89);
+}
+
+a:visited {
+  color: rgb(236, 27, 236);
+}
+
+.form-container {
+  width: 60%;
+  background-color: #eeeeeeb7;
+}
+
+.paragraph-container {
+  position: relative;
+  width: 60%;
+  height: 40%;
+}
+
+.paragraph {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  font-size: 1.3em;
+  width: 140%;
+}
+
+.para {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputs-container {
+  height: 30%;
+  box-shadow: 0 3px 5px rgb(172, 169, 169);
+  background-color: white;
+}
+
+#start {
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.3em;
+  margin: 0 0 0 50px;
+  padding-top: 20px;
+}
+
+label {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.left-input {
+  position: relative;
+  left: 16em;
+  bottom: 10.2em;
+}
+
+span {
+  color: green;
+}
+
+button {
+  width: 12em;
+  height: 2.5em;
+  border-radius: 9px;
+  background-color: #596d48;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgb(26, 31, 26);
+}
+
+#last-p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+input {
+  width: 15em;
+  height: 2em;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 3px 2px rgb(97, 92, 92);
+}
+
+input:focus {
+  border: 2px solid #3b88fc;
+  outline: #3b88fc;
+}
